@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Try_HitAnimal
+
+  Created by irons on 2015/12/5.
+  Copyright (c) 2015年 irons. All rights reserved.
+*/
+
+"CannotNull" = "姓名不可為空";
+"cat_shoot_ad" = "ad3.jpg";

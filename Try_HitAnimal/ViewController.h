@@ -8,7 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+@import iAd;
 
-@interface ViewController : UIViewController
+@protocol gameDelegate<NSObject>
+-(void)showModeSelect;
+-(void)goToGameBreak;
+-(void)goToGameLimit;
+-(void)goToGameInfinity;
+-(void)showRankView;
+-(void)showLoseView;
+-(void)showWinView;
+-(void)restartGame;
+@end
+
+@protocol pauseGameDelegate <NSObject>
+- (void)pauseGame;
+@end
+
+@interface ViewController : UIViewController<gameDelegate,pauseGameDelegate,ADBannerViewDelegate>
 
 @end

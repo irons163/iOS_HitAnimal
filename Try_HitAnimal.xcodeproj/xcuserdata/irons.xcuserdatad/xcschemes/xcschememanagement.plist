@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Try_Body_Hit_Monster.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Try_HitAnimal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B521152D1B3EA828005EFD4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B521154A1B3EA829005EFD4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B580C4C31AE889A4006C31BC</key>
 		<dict>
 			<key>primary</key>
